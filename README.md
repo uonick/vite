@@ -1,4 +1,6 @@
-### About
+# About
+
+Vite + Vue project template
 
 Project contains:
 
@@ -7,6 +9,12 @@ Project contains:
 - [Vuex](https://next.vuex.vuejs.org/)
 - [Axios](https://axios-http.com/)
 - [Tailwind](https://tailwindcss.com/)
+
+### Install
+
+- `npx degit uonick/vite my-app-name`
+- `cd my-app-name`
+- `npm i`
 
 ### Development
 
