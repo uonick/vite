@@ -25,8 +25,11 @@ Project contains:
 ### Run
 
 - Dev: Run `npm start` (requires `nodejs`)
-- Production: `docker compose up -d --build` (`docker-compose up -d --build` in old Docker versions, requires [docker-compose](https://docs.docker.com/compose/))
+- Production: `docker compose up -d --build` (or `docker-compose up -d --build` in old Docker versions, requires [docker-compose](https://docs.docker.com/compose/))
 
-### Settings
+### Configuration
 
-For the configuration, the main `.env` is taken, then the `.env.local` ignored in git is processed.
+- `.env` 
+- `.env.local`
+
+[Read mode](https://vitejs.dev/guide/env-and-mode.html#env-files)
