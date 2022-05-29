@@ -9,9 +9,6 @@ import { createApp } from 'vue'
 
 const app = createApp(LayoutMain)
 
-app.use(VueAxios, Middleware)
-  .use(VueRouter)
-  .use(Store)
-  .mixin(Mixin)
+app.use(VueAxios, Middleware).use(VueRouter).use(Store).mixin(Mixin)
 
 app.mount('#app')
