@@ -1,14 +1,13 @@
 import LayoutMain from '@/layouts/LayoutMain.vue'
-import VueAxios from 'vue-axios'
 import VueRouter from '@/router'
+import { createPinia } from 'pinia'
 import Mixin from '@/mixins'
-import Middleware from '@/middleware'
-import Store from '@/store'
 
 import { createApp } from 'vue'
 
+const pinia = createPinia()
 const app = createApp(LayoutMain)
-
-app.use(VueAxios, Middleware).use(VueRouter).use(Store).mixin(Mixin)
-
+app.use(pinia)
+app.use(VueRouter)
+app.use(Mixin)
 app.mount('#app')

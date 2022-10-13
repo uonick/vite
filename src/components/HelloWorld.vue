@@ -6,7 +6,7 @@
         <a class="text-sky-500 underline" href="https://vitejs.dev/">Vite</a> +
         <a class="text-sky-500 underline" href="https://tailwindcss.com/docs/guides/vite">Tailwind</a> +
         <a class="text-sky-500 underline" href="https://next.router.vuejs.org/introduction.html">Vue-Router</a> +
-        <a class="text-sky-500 underline" href="https://next.vuex.vuejs.org/">Vuex</a> +
+        <a class="text-sky-500 underline" href="https://pinia.vuejs.org/">Pinia</a> +
         <a class="text-sky-500 underline" href="https://axios-http.com/docs/intro">Axios</a>
       </div>
     </div>
