@@ -1,6 +1,6 @@
-import http from 'axios'
+import axios from 'axios'
 
-http.create({
+const http = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
   timeout: 15000,
 })
